@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stealth Startup</title>
+    <style>
+        body {
+            background-color: #2a2a72;
+            background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background-color: #6a3093;
+            background-image: linear-gradient(315deg, #6a3093 0%, #a044ff 74%);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            width: calc(100% - 20px);
+        }
+        input[type="submit"] {
+            background-color: #f80759;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="signup-form">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
